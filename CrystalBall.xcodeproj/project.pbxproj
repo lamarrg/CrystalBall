@@ -212,7 +212,11 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Lamar;
 				TargetAttributes = {
+					2AFE8506181316F4003D55ED = {
+						LastSwiftMigration = 0830;
+					};
 					2AFE8527181316F4003D55ED = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 2AFE8506181316F4003D55ED;
 					};
 				};
@@ -397,6 +401,7 @@
 				INFOPLIST_FILE = "CrystalBall/CrystalBall-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "V-V.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,6 +416,7 @@
 				INFOPLIST_FILE = "CrystalBall/CrystalBall-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "V-V.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -433,6 +439,7 @@
 				INFOPLIST_FILE = "CrystalBallTests/CrystalBallTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "V-V.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -452,6 +459,7 @@
 				INFOPLIST_FILE = "CrystalBallTests/CrystalBallTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "V-V.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
